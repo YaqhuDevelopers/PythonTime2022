@@ -117,3 +117,100 @@ Para ejecutar una función con parámetros, debemos llamarla y pasarle los pará
 ```python
 funcion("Yaqhu Developers")
 ```
+
+Las funciones pueden retornar un valor:
+
+```python
+def funcion():
+    return "Hola mundo"
+```
+
+Para obtener el valor retornado por una función, debemos llamarla y asignarla a una variable:
+
+```python
+variable = funcion()
+```
+
+## Listas
+
+Las listas son estructuras de datos que nos permiten almacenar varios valores. En Python, las listas se declaran de la siguiente manera:
+
+```python   
+lista = [1, 2, 3, 4, 5]
+```
+
+Para acceder a un elemento de una lista, debemos indicar el índice del elemento:
+
+```python
+lista[0] # 1
+lista[1] # 2
+lista[2] # 3
+lista[3] # 4
+lista[4] # 5
+```
+
+Si intentamos acceder a un elemento que no existe, obtendremos un error:
+
+```python
+lista[5] # IndexError: list index out of range
+```
+En cambio, si intentamos acceder a `lista[-1]`, obtendremos el último elemento de la lista:
+
+```python
+lista[-1] = 5
+```
+
+Estos indices no solo nos permiten acceder a los elementos de una lista, también nos permiten modificarlos:
+
+```python
+lista[0] = 10
+lista[1] = 20
+lista[2] = 30
+lista[3] = 40
+lista[4] = 50
+```
+
+Las listas también nos permiten almacenar diferentes tipos de datos:
+
+```python
+lista = [1, 2.0, "Yaqhu", True]
+```
+
+Las listas también nos permiten almacenar otras listas:
+
+```python
+lista = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+
+Para acceder a un elemento de una lista anidada, debemos indicar el índice de la lista y el índice del elemento:
+
+```python
+lista[0][0] # 1
+lista[0][1] # 2
+lista[0][2] # 3
+lista[1][0] # 4
+lista[1][1] # 5
+lista[1][2] # 6
+lista[2][0] # 7
+lista[2][1] # 8
+lista[2][2] # 9
+``` 
+
+Las listas también nos permiten agregar elementos:
+
+```python
+lista = [1, 2, 3]
+lista.append(4)
+lista.append(5)
+```
+
+Para ello utilizamos el método `append()`. Este método recibe un parámetro, el elemento que queremos agregar a la lista.
+
+Las listas también nos permiten eliminar elementos:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.pop(0)
+```
+
+Para ello utilizamos el método `pop()`. Este método recibe un parámetro, el índice del elemento que queremos eliminar de la lista. En este caso, eliminamos el primer elemento de la lista que es `1`.
