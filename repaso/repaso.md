@@ -450,3 +450,8 @@ while True:
 
 En este caso, tenemos un bucle `while` que se ejecuta siempre. Por cada iteración, se imprime el texto `Hola` y se pregunta si se desea salir. Si se ingresa la letra `s`, se ejecuta el código que se encuentra después del `pass` y se rompe el bucle `while` y se termina la ejecución del programa.
 
+## Siguientes pasos
+
+Ahora que ya conoces los conceptos básicos de Python es tiempo de que pongas en práctica lo aprendido. Para ello, te recomiendo que realices los siguientes ejercicios:
+
+- [Ejercicios de Python](https://platzi.com/clases/1557-python/20201-ejercicios-de-python/)
