@@ -25,6 +25,26 @@ variable = True # bool
 
 Debemos recordar que los valores booleanos (bool) solo pueden ser `True` o `False`.
 
+## Input
+
+El input es una función que nos permite pedirle al usuario que ingrese un valor. En Python, la función input se utiliza de la siguiente manera:
+
+```python
+variable = input("Ingresa un valor: ")
+```
+
+En este caso, la variable `variable` almacena el valor que el usuario ingrese. Si el usuario ingresa el valor `1`, la variable `variable` almacena el valor `1`.
+
+## Output
+
+El output es una función que nos permite mostrar un valor en la consola. En Python, la función print se utiliza de la siguiente manera:
+
+```python
+print("Hola mundo")
+```
+
+En este caso, la función print muestra el texto `Hola mundo` en la consola.
+
 ## Operadores
 
 Los operadores son símbolos que nos permiten realizar operaciones matemáticas. En Python, existen diferentes tipos de operadores:
@@ -214,3 +234,219 @@ lista.pop(0)
 ```
 
 Para ello utilizamos el método `pop()`. Este método recibe un parámetro, el índice del elemento que queremos eliminar de la lista. En este caso, eliminamos el primer elemento de la lista que es `1`.
+
+Las listas también nos permiten ordenar sus elementos:
+
+```python
+lista = [5, 4, 3, 2, 1]
+lista.sort()
+```
+
+Para ello utilizamos el método `sort()`. Este método no recibe ningún parámetro. En este caso, ordenamos los elementos de la lista de menor a mayor. Si queremos ordenar los elementos de mayor a menor, debemos utilizar el método `sort(reverse=True)`.
+
+Las listas también nos permiten invertir sus elementos:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.reverse()
+```
+
+Para ello utilizamos el método `reverse()`. Este método no recibe ningún parámetro. En este caso, invertimos los elementos de la lista.
+
+Las listas también nos permiten contar la cantidad de veces que un elemento se encuentra en la lista:
+
+```python
+lista = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
+lista.count(1) # 2
+lista.count(2) # 2
+lista.count(3) # 2
+lista.count(4) # 2
+lista.count(5) # 2
+```
+
+Para ello utilizamos el método `count()`. Este método recibe un parámetro, el elemento que queremos contar. En este caso, contamos la cantidad de veces que se encuentra el número `1` en la lista.
+
+Las listas también nos permiten obtener el índice de un elemento:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.index(1) # 0
+lista.index(2) # 1
+lista.index(3) # 2
+lista.index(4) # 3
+lista.index(5) # 4
+```
+
+Para ello utilizamos el método `index()`. Este método recibe un parámetro, el elemento del que queremos obtener el índice. En este caso, obtenemos el índice del número `1` en la lista.
+
+Las listas también nos permiten insertar un elemento en un índice determinado:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.insert(0, 0)
+lista.insert(6, 6)
+```
+
+Para ello utilizamos el método `insert()`. Este método recibe dos parámetros, el índice y el elemento que queremos insertar. En este caso, insertamos el número `0` en el índice `0` y el número `6` en el índice `6`.
+
+Las listas también nos permiten eliminar un elemento:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.remove(1)
+lista.remove(5)
+```
+
+Para ello utilizamos el método `remove()`. Este método recibe un parámetro, el elemento que queremos eliminar. En este caso, eliminamos el número `1` y el número `5`.
+
+Las listas también nos permiten eliminar todos los elementos:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.clear()
+```
+
+Para ello utilizamos el método `clear()`. Este método no recibe ningún parámetro. En este caso, eliminamos todos los elementos de la lista.
+
+Las listas también nos permiten copiar una lista:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista_copia = lista.copy()
+```
+
+Para ello utilizamos el método `copy()`. Este método no recibe ningún parámetro. En este caso, copiamos la lista `lista` en la lista `lista_copia`.
+
+Las listas también nos permiten extender una lista:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.extend([6, 7, 8, 9, 10])
+```
+
+Para ello utilizamos el método `extend()`. Este método recibe un parámetro, la lista que queremos extender. En este caso, extendemos la lista `lista` con la lista `[6, 7, 8, 9, 10]`.
+
+Las listas también nos permiten obtener el máximo de una lista:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.max() # 5
+```
+
+Para ello utilizamos el método `max()`. Este método no recibe ningún parámetro. En este caso, obtenemos el máximo de la lista `lista`.
+
+Las listas también nos permiten obtener el mínimo de una lista:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.min() # 1
+```
+
+Para ello utilizamos el método `min()`. Este método no recibe ningún parámetro. En este caso, obtenemos el mínimo de la lista `lista`.
+
+Las listas también nos permiten obtener la suma de una lista:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.sum() # 15
+```
+
+Para ello utilizamos el método `sum()`. Este método no recibe ningún parámetro. En este caso, obtenemos la suma de la lista `lista`.
+
+Las listas también nos permiten obtener el promedio de una lista:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.avg() # 3.0
+```
+
+Para ello utilizamos el método `avg()`. Este método no recibe ningún parámetro. En este caso, obtenemos el promedio de la lista `lista`.
+
+Las listas también nos permiten obtener la longitud de una lista:
+
+```python
+lista = [1, 2, 3, 4, 5]
+lista.len() # 5
+```
+
+Para ello utilizamos el método `len()`. Este método no recibe ningún parámetro. En este caso, obtenemos la longitud de la lista `lista`.
+
+## Bucles anidados
+
+Los bucles anidados son bucles que se encuentran dentro de otros bucles. Por ejemplo:
+
+```python
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i, j)
+```
+
+En este caso, tenemos un bucle `for` que se encuentra dentro de otro bucle `for`. El primer bucle `for` recorre los números del `1` al `10`. El segundo bucle `for` recorre los números del `1` al `10`. Por cada iteración del primer bucle `for`, se ejecuta el segundo bucle `for` y se imprime el valor de `i` y `j`.
+
+## Bucles infinitos
+
+Los bucles infinitos son bucles que no tienen una condición de parada. Por ejemplo:
+
+```python
+while True:
+    print("Hola")
+```
+
+En este caso, tenemos un bucle `while` que se ejecuta siempre. Por cada iteración, se imprime el texto `Hola`.
+
+## Bucles con `break`
+
+Los bucles con `break` son bucles que se ejecutan hasta que se cumple una condición. Por ejemplo:
+
+```python
+while True:
+    print("Hola")
+    if input("¿Desea salir? (s/n): ") == "s":
+        break
+```
+
+En este caso, tenemos un bucle `while` que se ejecuta siempre. Por cada iteración, se imprime el texto `Hola` y se pregunta si se desea salir. Si se ingresa la letra `s`, se rompe el bucle `while` y se termina la ejecución del programa.
+
+## Bucles con `continue`
+
+Los bucles con `continue` son bucles que se ejecutan hasta que se cumple una condición. Por ejemplo:
+
+```python
+while True:
+    print("Hola")
+    if input("¿Desea salir? (s/n): ") == "s":
+        continue
+    break
+```
+
+En este caso, tenemos un bucle `while` que se ejecuta siempre. Por cada iteración, se imprime el texto `Hola` y se pregunta si se desea salir. Si se ingresa la letra `s`, se continua la ejecución del bucle `while`. Si se ingresa cualquier otra letra, se rompe el bucle `while` y se termina la ejecución del programa.
+
+## Bucles con `else`
+
+Los bucles con `else` son bucles que se ejecutan hasta que se cumple una condición. Por ejemplo:
+
+```python
+while True:
+    print("Hola")
+    if input("¿Desea salir? (s/n): ") == "s":
+        break
+else:
+    print("Adiós")
+```
+
+En este caso, tenemos un bucle `while` que se ejecuta siempre. Por cada iteración, se imprime el texto `Hola` y se pregunta si se desea salir. Si se ingresa la letra `s`, se rompe el bucle `while` y se termina la ejecución del programa. Si se ingresa cualquier otra letra, se ejecuta el código que se encuentra después del `else` y se imprime el texto `Adiós`.
+
+## Bucles con `pass`
+
+Los bucles con `pass` son bucles que se ejecutan hasta que se cumple una condición. Por ejemplo:
+
+```python
+while True:
+    print("Hola")
+    if input("¿Desea salir? (s/n): ") == "s":
+        pass
+    break
+```
+
+En este caso, tenemos un bucle `while` que se ejecuta siempre. Por cada iteración, se imprime el texto `Hola` y se pregunta si se desea salir. Si se ingresa la letra `s`, se ejecuta el código que se encuentra después del `pass` y se rompe el bucle `while` y se termina la ejecución del programa.
+
