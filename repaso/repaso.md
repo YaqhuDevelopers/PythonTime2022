@@ -66,3 +66,54 @@ elif 1 == 2:
 else:
     print("1 no es igual a 1 ni a 2")
 ```
+
+## Ciclos o bucles
+
+Los ciclos o bucles nos permiten ejecutar un bloque de código varias veces. En Python, existen diferentes tipos de ciclos:
+
+- `while`: Mientras se cumpla una condición, se ejecuta un bloque de código
+- `for`: Para cada elemento de una lista, se ejecuta un bloque de código
+
+```python
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+```
+
+Como hemos visto mientras se cumpla la condición `i < 10`, se ejecuta el bloque de código. En este caso, el bloque de código es `print(i)`. Además, en cada iteración, se incrementa el valor de `i` en 1.
+
+```python
+for i in range(10):
+    print(i)
+```
+
+En este caso, el ciclo `for` recorre cada elemento de la lista `range(10)`. En este caso, la lista `range(10)` contiene los números del 0 al 9. Por lo tanto, el bloque de código se ejecuta 10 veces.
+
+## Funciones
+
+Las funciones son bloques de código que realizan una tarea específica. En Python, las funciones se declaran de la siguiente manera:
+
+```python
+def funcion():
+    print("Hola mundo")
+```
+
+Para ejecutar una función, debemos llamarla:
+
+```python
+funcion()
+```
+
+Las funciones pueden recibir parámetros:
+
+```python
+def funcion(parametro):
+    print(parametro)
+```
+
+Para ejecutar una función con parámetros, debemos llamarla y pasarle los parámetros:
+
+```python
+funcion("Yaqhu Developers")
+```
