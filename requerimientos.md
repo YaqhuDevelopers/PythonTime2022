@@ -26,6 +26,6 @@ pip3 install os-sys
 pip3 install pytube
 ```
 
-En caso se te complique la instalación, puedes ver el video de instalación de Python y Visual Studio Code en el siguiente enlace: [Instalación de Python y Visual Studio Code]()
+En caso se te complique la instalación, puedes ver el video de instalación de Python y Visual Studio Code en el siguiente enlace: [Instalación de Python y Visual Studio Code](https://youtu.be/Rjxs-zTtwX8)
 
 Ahora que ya tienes todo instalado estas listo para iniciar el taller. 
