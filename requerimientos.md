@@ -10,6 +10,12 @@ pip install os-sys
 ```bash
 pip install pytube
 ```
+```bash
+python -m pip install os-sys
+```
+```bash
+python -m pip install pytube
+```
 
 - Mac y Linux:
 
