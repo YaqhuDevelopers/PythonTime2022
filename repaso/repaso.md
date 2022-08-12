@@ -454,4 +454,4 @@ En este caso, tenemos un bucle `while` que se ejecuta siempre. Por cada iteraci�
 
 Ahora que ya conoces los conceptos básicos de Python es tiempo de que pongas en práctica lo aprendido. Para ello, te recomiendo que realices los siguientes ejercicios:
 
-- [Ejercicios de Python]()
+- [Ejercicios de Python](./ejercicios/ejercicios.md)
