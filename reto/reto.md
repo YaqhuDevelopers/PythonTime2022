@@ -8,4 +8,4 @@ Presentamos el reto para el taller de Python Time 2022. Este reto consiste en cr
 - La librería `pytube` instalada
 - La librería `os` instalada
 
-Hemos creado guia de preparación de entorno de desarrollo para el taller. Puedes encontrarla [aquí](./requerimientos.md).
+Hemos creado guia de preparación de entorno de desarrollo para el taller. Puedes encontrarla [aquí](/requerimientos.md).
