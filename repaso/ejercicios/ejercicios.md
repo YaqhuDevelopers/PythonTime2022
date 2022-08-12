@@ -20,9 +20,6 @@ Crea un programa que pida al usuario su nombre y su edad. Imprime un mensaje que
 
 [Solución](./ejercicio4.py)
 
-[Click me](http://www.google.com){: .btn}
-
-
 ## Ejercicio 5
 Crea un programa que verifique si un número es par o impar. El programa debe pedir al usuario un número y luego imprimir un mensaje que diga "El número {numero} es par" o "El número {numero} es impar".
 
