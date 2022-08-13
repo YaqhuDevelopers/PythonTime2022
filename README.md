@@ -13,8 +13,8 @@ A continuación se encuentran los enlaces a los recursos utilizados en el taller
 1. [Preparación entorno de desarrollo para el taller](./requerimientos.md)
 2. [Repaso Python](./repaso/repaso.md)
 3. [Reto](./reto/reto.md)
-3. [Diapositivas](./diapositivas.pdf)
-4. [Grabación del taller](README.md)
+3. [Diapositivas](https://www.beautiful.ai/player/-N9JjU9Y2PxcLXL2t5TB)
+4. [Grabación del taller](https://youtu.be/5XzyHOaLvT4)
 
 ## Enlaces de interés
 
